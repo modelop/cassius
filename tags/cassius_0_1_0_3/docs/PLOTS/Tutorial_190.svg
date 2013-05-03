@@ -1,0 +1,284 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="stroke-linejoin:miter; stroke:black; stroke-width:2.5; text-anchor:middle; fill:none" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, FreeSans, Sans, sans, sans-serif" width="1000px" height="1000px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+<defs>
+    <clipPath id="Grid_0_clip">
+        <rect x="120" y="50" width="830" height="870" />
+    </clipPath>
+    <clipPath id="Scatter_0_clip">
+        <rect x="120" y="50" width="830" height="870" />
+    </clipPath>
+    <circle id="Scatter_0_mark" cx="0" cy="0" r="7.5" stroke="none" stroke-opacity="1" fill="black" fill-opacity="1" />
+</defs>
+<g id="whole_document">
+<rect id="background" x="0" y="0" width="1000" height="1000" stroke="none" fill="white" />
+<g id="Grid_0" clip-path="url(#Grid_0_clip)">
+    <path d="M 154.547 920 L 154.547 50 M 189.167 920 L 189.167 50 M 223.786 920 L 223.786 50 M 258.406 920 L 258.406 50 M 293.025 920 L 293.025 50 M 327.645 920 L 327.645 50 M 362.264 920 L 362.264 50 M 396.884 920 L 396.884 50 M 431.504 920 L 431.504 50 M 466.123 920 L 466.123 50 M 500.743 920 L 500.743 50 M 535.362 920 L 535.362 50 M 569.982 920 L 569.982 50 M 604.601 920 L 604.601 50 M 639.221 920 L 639.221 50 M 673.841 920 L 673.841 50 M 708.46 920 L 708.46 50 M 743.08 920 L 743.08 50 M 777.699 920 L 777.699 50 M 812.319 920 L 812.319 50 M 846.938 920 L 846.938 50 M 881.558 920 L 881.558 50 M 916.178 920 L 916.178 50 M 120 847.5 L 950 847.5 M 120 774.448 L 950 774.448 M 120 701.395 L 950 701.395 M 120 628.343 L 950 628.343 M 120 555.29 L 950 555.29 M 120 482.238 L 950 482.238 M 120 409.185 L 950 409.185 M 120 336.133 L 950 336.133 M 120 263.08 L 950 263.08 M 120 190.028 L 950 190.028 M 120 116.975 L 950 116.975" stroke-width="3" stroke-dasharray="3.0 3.0" stroke="grey" stroke-opacity="1" fill="none" />
+</g>
+<g id="Scatter_0" clip-path="url(#Scatter_0_clip)">
+    <use x="367.307" y="743.028" xlink:href="#Scatter_0_mark" />
+    <use x="419.008" y="697.55" xlink:href="#Scatter_0_mark" />
+    <use x="872.283" y="350.563" xlink:href="#Scatter_0_mark" />
+    <use x="307.684" y="475.168" xlink:href="#Scatter_0_mark" />
+    <use x="634.971" y="798.017" xlink:href="#Scatter_0_mark" />
+    <use x="475.194" y="309.661" xlink:href="#Scatter_0_mark" />
+    <use x="880.833" y="144.081" xlink:href="#Scatter_0_mark" />
+    <use x="692.188" y="146.175" xlink:href="#Scatter_0_mark" />
+    <use x="402.369" y="278.088" xlink:href="#Scatter_0_mark" />
+    <use x="598.47" y="626.366" xlink:href="#Scatter_0_mark" />
+    <use x="742.372" y="523.328" xlink:href="#Scatter_0_mark" />
+    <use x="777.036" y="418.166" xlink:href="#Scatter_0_mark" />
+    <use x="551.06" y="695.196" xlink:href="#Scatter_0_mark" />
+    <use x="792.791" y="248.476" xlink:href="#Scatter_0_mark" />
+    <use x="350.933" y="178.252" xlink:href="#Scatter_0_mark" />
+    <use x="423.677" y="361.256" xlink:href="#Scatter_0_mark" />
+    <use x="618.569" y="156.742" xlink:href="#Scatter_0_mark" />
+    <use x="872.768" y="232.34" xlink:href="#Scatter_0_mark" />
+    <use x="383.247" y="479.858" xlink:href="#Scatter_0_mark" />
+    <use x="591.501" y="250.552" xlink:href="#Scatter_0_mark" />
+    <use x="790.987" y="302.76" xlink:href="#Scatter_0_mark" />
+    <use x="412.157" y="785.865" xlink:href="#Scatter_0_mark" />
+    <use x="657.815" y="207.326" xlink:href="#Scatter_0_mark" />
+    <use x="813.997" y="328.116" xlink:href="#Scatter_0_mark" />
+    <use x="189.936" y="208.887" xlink:href="#Scatter_0_mark" />
+    <use x="818.241" y="838.67" xlink:href="#Scatter_0_mark" />
+    <use x="820.448" y="122.5" xlink:href="#Scatter_0_mark" />
+    <use x="633.377" y="254.753" xlink:href="#Scatter_0_mark" />
+    <use x="371.992" y="233.994" xlink:href="#Scatter_0_mark" />
+    <use x="480.197" y="337.974" xlink:href="#Scatter_0_mark" />
+    <use x="637.076" y="692.496" xlink:href="#Scatter_0_mark" />
+    <use x="522.434" y="211.819" xlink:href="#Scatter_0_mark" />
+    <use x="665.164" y="278.285" xlink:href="#Scatter_0_mark" />
+    <use x="324.538" y="316.924" xlink:href="#Scatter_0_mark" />
+    <use x="397.183" y="565.054" xlink:href="#Scatter_0_mark" />
+    <use x="651.663" y="231.255" xlink:href="#Scatter_0_mark" />
+    <use x="296.467" y="694.705" xlink:href="#Scatter_0_mark" />
+    <use x="571.191" y="527.793" xlink:href="#Scatter_0_mark" />
+    <use x="613.944" y="427.155" xlink:href="#Scatter_0_mark" />
+    <use x="397.254" y="169.054" xlink:href="#Scatter_0_mark" />
+    <use x="854.371" y="377.783" xlink:href="#Scatter_0_mark" />
+    <use x="622.431" y="329.191" xlink:href="#Scatter_0_mark" />
+    <use x="660.357" y="613.388" xlink:href="#Scatter_0_mark" />
+    <use x="384.368" y="323.057" xlink:href="#Scatter_0_mark" />
+    <use x="491.146" y="205.062" xlink:href="#Scatter_0_mark" />
+    <use x="834.076" y="569.539" xlink:href="#Scatter_0_mark" />
+    <use x="714.117" y="635.937" xlink:href="#Scatter_0_mark" />
+    <use x="762.452" y="149.902" xlink:href="#Scatter_0_mark" />
+    <use x="344.093" y="731.835" xlink:href="#Scatter_0_mark" />
+    <use x="548.153" y="516.809" xlink:href="#Scatter_0_mark" />
+    <use x="700.375" y="635.617" xlink:href="#Scatter_0_mark" />
+    <use x="748.94" y="446.474" xlink:href="#Scatter_0_mark" />
+    <use x="388.635" y="403.499" xlink:href="#Scatter_0_mark" />
+    <use x="299.837" y="140.444" xlink:href="#Scatter_0_mark" />
+    <use x="651.903" y="527.101" xlink:href="#Scatter_0_mark" />
+    <use x="468.254" y="792.951" xlink:href="#Scatter_0_mark" />
+    <use x="218.812" y="407.096" xlink:href="#Scatter_0_mark" />
+    <use x="647.151" y="573.605" xlink:href="#Scatter_0_mark" />
+    <use x="344.762" y="172.742" xlink:href="#Scatter_0_mark" />
+    <use x="651.911" y="514.409" xlink:href="#Scatter_0_mark" />
+    <use x="695.657" y="814.557" xlink:href="#Scatter_0_mark" />
+    <use x="776.732" y="204.634" xlink:href="#Scatter_0_mark" />
+    <use x="512.219" y="506.809" xlink:href="#Scatter_0_mark" />
+    <use x="634.204" y="760.201" xlink:href="#Scatter_0_mark" />
+    <use x="251.153" y="775.025" xlink:href="#Scatter_0_mark" />
+    <use x="646.722" y="211.576" xlink:href="#Scatter_0_mark" />
+    <use x="722.439" y="786.515" xlink:href="#Scatter_0_mark" />
+    <use x="821.909" y="369.056" xlink:href="#Scatter_0_mark" />
+    <use x="787.198" y="495.575" xlink:href="#Scatter_0_mark" />
+    <use x="826.545" y="521.038" xlink:href="#Scatter_0_mark" />
+    <use x="536.347" y="836.653" xlink:href="#Scatter_0_mark" />
+    <use x="603.336" y="835.687" xlink:href="#Scatter_0_mark" />
+    <use x="707.641" y="202.325" xlink:href="#Scatter_0_mark" />
+    <use x="473.044" y="222.221" xlink:href="#Scatter_0_mark" />
+    <use x="365.379" y="803.579" xlink:href="#Scatter_0_mark" />
+    <use x="370.628" y="651.846" xlink:href="#Scatter_0_mark" />
+    <use x="848.087" y="542.583" xlink:href="#Scatter_0_mark" />
+    <use x="514.119" y="305.5" xlink:href="#Scatter_0_mark" />
+    <use x="335.331" y="677.68" xlink:href="#Scatter_0_mark" />
+    <use x="875.142" y="793.679" xlink:href="#Scatter_0_mark" />
+    <use x="587.286" y="160.153" xlink:href="#Scatter_0_mark" />
+    <use x="288.659" y="333.99" xlink:href="#Scatter_0_mark" />
+    <use x="694.425" y="356.312" xlink:href="#Scatter_0_mark" />
+    <use x="301.858" y="244.895" xlink:href="#Scatter_0_mark" />
+    <use x="356.488" y="315.125" xlink:href="#Scatter_0_mark" />
+    <use x="389.057" y="567.759" xlink:href="#Scatter_0_mark" />
+    <use x="782.078" y="819.908" xlink:href="#Scatter_0_mark" />
+    <use x="332.371" y="640.379" xlink:href="#Scatter_0_mark" />
+    <use x="846.751" y="565.245" xlink:href="#Scatter_0_mark" />
+    <use x="517.026" y="265.638" xlink:href="#Scatter_0_mark" />
+    <use x="199.539" y="626.229" xlink:href="#Scatter_0_mark" />
+    <use x="500.12" y="485.36" xlink:href="#Scatter_0_mark" />
+    <use x="204.972" y="460.715" xlink:href="#Scatter_0_mark" />
+    <use x="366.122" y="442.217" xlink:href="#Scatter_0_mark" />
+    <use x="444.191" y="556.713" xlink:href="#Scatter_0_mark" />
+    <use x="308.615" y="613.295" xlink:href="#Scatter_0_mark" />
+    <use x="236.834" y="421.132" xlink:href="#Scatter_0_mark" />
+    <use x="558.365" y="830.862" xlink:href="#Scatter_0_mark" />
+    <use x="308.511" y="231.966" xlink:href="#Scatter_0_mark" />
+    <use x="846.041" y="359.961" xlink:href="#Scatter_0_mark" />
+</g>
+<g id="frame_0">
+    <rect id="frame_0_border" x="120" y="50" width="830" height="870" />
+    <g id="frame_0_bottomticks">
+        <path d="M 189.167 920 L 189.167 900" />
+        <text font-size="30" transform="translate(189.167, 950)" text-anchor="middle" dominant-baseline="middle" stroke="none" fill="black">0</text>
+        <path d="M 881.558 920 L 881.558 900" />
+        <text font-size="30" transform="translate(881.558, 950)" text-anchor="middle" dominant-baseline="middle" stroke="none" fill="black">100</text>
+        <path d="M 673.841 920 L 673.841 910" />
+        <path d="M 466.123 920 L 466.123 900" />
+        <text font-size="30" transform="translate(466.123, 950)" text-anchor="middle" dominant-baseline="middle" stroke="none" fill="black">40</text>
+        <path d="M 258.406 920 L 258.406 910" />
+        <path d="M 743.08 920 L 743.08 900" />
+        <text font-size="30" transform="translate(743.08, 950)" text-anchor="middle" dominant-baseline="middle" stroke="none" fill="black">80</text>
+        <path d="M 535.362 920 L 535.362 910" />
+        <path d="M 327.645 920 L 327.645 900" />
+        <text font-size="30" transform="translate(327.645, 950)" text-anchor="middle" dominant-baseline="middle" stroke="none" fill="black">20</text>
+        <path d="M 812.319 920 L 812.319 910" />
+        <path d="M 604.601 920 L 604.601 900" />
+        <text font-size="30" transform="translate(604.601, 950)" text-anchor="middle" dominant-baseline="middle" stroke="none" fill="black">60</text>
+        <path d="M 396.884 920 L 396.884 910" />
+    </g>
+    <g id="frame_0_leftticks">
+        <path d="M 120 847.5 L 140 847.5" />
+        <text font-size="30" transform="translate(110, 857.5)" text-anchor="end" dominant-baseline="middle" stroke="none" fill="black">0</text>
+        <path d="M 120 832.89 L 130 832.89" />
+        <path d="M 120 818.279 L 130 818.279" />
+        <path d="M 120 803.669 L 130 803.669" />
+        <path d="M 120 789.058 L 130 789.058" />
+        <path d="M 120 774.448 L 130 774.448" />
+        <path d="M 120 759.837 L 130 759.837" />
+        <path d="M 120 745.227 L 130 745.227" />
+        <path d="M 120 730.616 L 130 730.616" />
+        <path d="M 120 716.006 L 130 716.006" />
+        <path d="M 120 701.395 L 140 701.395" />
+        <text font-size="30" transform="translate(110, 711.395)" text-anchor="end" dominant-baseline="middle" stroke="none" fill="black">10</text>
+        <path d="M 120 686.785 L 130 686.785" />
+        <path d="M 120 672.174 L 130 672.174" />
+        <path d="M 120 657.564 L 130 657.564" />
+        <path d="M 120 642.953 L 130 642.953" />
+        <path d="M 120 628.343 L 130 628.343" />
+        <path d="M 120 613.732 L 130 613.732" />
+        <path d="M 120 599.122 L 130 599.122" />
+        <path d="M 120 584.511 L 130 584.511" />
+        <path d="M 120 569.901 L 130 569.901" />
+        <path d="M 120 555.29 L 140 555.29" />
+        <text font-size="30" transform="translate(110, 565.29)" text-anchor="end" dominant-baseline="middle" stroke="none" fill="black">20</text>
+        <path d="M 120 540.68 L 130 540.68" />
+        <path d="M 120 526.069 L 130 526.069" />
+        <path d="M 120 511.459 L 130 511.459" />
+        <path d="M 120 496.848 L 130 496.848" />
+        <path d="M 120 482.238 L 130 482.238" />
+        <path d="M 120 467.627 L 130 467.627" />
+        <path d="M 120 453.017 L 130 453.017" />
+        <path d="M 120 438.406 L 130 438.406" />
+        <path d="M 120 423.796 L 130 423.796" />
+        <path d="M 120 409.185 L 140 409.185" />
+        <text font-size="30" transform="translate(110, 419.185)" text-anchor="end" dominant-baseline="middle" stroke="none" fill="black">30</text>
+        <path d="M 120 394.575 L 130 394.575" />
+        <path d="M 120 379.964 L 130 379.964" />
+        <path d="M 120 365.354 L 130 365.354" />
+        <path d="M 120 350.743 L 130 350.743" />
+        <path d="M 120 336.133 L 130 336.133" />
+        <path d="M 120 321.522 L 130 321.522" />
+        <path d="M 120 306.912 L 130 306.912" />
+        <path d="M 120 292.301 L 130 292.301" />
+        <path d="M 120 277.691 L 130 277.691" />
+        <path d="M 120 263.08 L 140 263.08" />
+        <text font-size="30" transform="translate(110, 273.08)" text-anchor="end" dominant-baseline="middle" stroke="none" fill="black">40</text>
+        <path d="M 120 248.47 L 130 248.47" />
+        <path d="M 120 233.859 L 130 233.859" />
+        <path d="M 120 219.249 L 130 219.249" />
+        <path d="M 120 204.638 L 130 204.638" />
+        <path d="M 120 190.028 L 130 190.028" />
+        <path d="M 120 175.417 L 130 175.417" />
+        <path d="M 120 160.807 L 130 160.807" />
+        <path d="M 120 146.196 L 130 146.196" />
+        <path d="M 120 131.586 L 130 131.586" />
+        <path d="M 120 116.975 L 140 116.975" />
+        <text font-size="30" transform="translate(110, 126.975)" text-anchor="end" dominant-baseline="middle" stroke="none" fill="black">50</text>
+        <path d="M 120 102.365 L 130 102.365" />
+        <path d="M 120 87.7543 L 130 87.7543" />
+        <path d="M 120 73.1438 L 130 73.1438" />
+        <path d="M 120 58.5333 L 130 58.5333" />
+        <path d="M 120 862.11 L 130 862.11" />
+        <path d="M 120 905.942 L 130 905.942" />
+        <path d="M 120 891.331 L 130 891.331" />
+        <path d="M 120 876.721 L 130 876.721" />
+    </g>
+    <g id="frame_0_topticks">
+        <path d="M 189.167 50 L 189.167 70" />
+        <path d="M 881.558 50 L 881.558 70" />
+        <path d="M 673.841 50 L 673.841 60" />
+        <path d="M 466.123 50 L 466.123 70" />
+        <path d="M 258.406 50 L 258.406 60" />
+        <path d="M 743.08 50 L 743.08 70" />
+        <path d="M 535.362 50 L 535.362 60" />
+        <path d="M 327.645 50 L 327.645 70" />
+        <path d="M 812.319 50 L 812.319 60" />
+        <path d="M 604.601 50 L 604.601 70" />
+        <path d="M 396.884 50 L 396.884 60" />
+    </g>
+    <g id="frame_0_rightticks">
+        <path d="M 950 847.5 L 930 847.5" />
+        <path d="M 950 832.89 L 940 832.89" />
+        <path d="M 950 818.279 L 940 818.279" />
+        <path d="M 950 803.669 L 940 803.669" />
+        <path d="M 950 789.058 L 940 789.058" />
+        <path d="M 950 774.448 L 940 774.448" />
+        <path d="M 950 759.837 L 940 759.837" />
+        <path d="M 950 745.227 L 940 745.227" />
+        <path d="M 950 730.616 L 940 730.616" />
+        <path d="M 950 716.006 L 940 716.006" />
+        <path d="M 950 701.395 L 930 701.395" />
+        <path d="M 950 686.785 L 940 686.785" />
+        <path d="M 950 672.174 L 940 672.174" />
+        <path d="M 950 657.564 L 940 657.564" />
+        <path d="M 950 642.953 L 940 642.953" />
+        <path d="M 950 628.343 L 940 628.343" />
+        <path d="M 950 613.732 L 940 613.732" />
+        <path d="M 950 599.122 L 940 599.122" />
+        <path d="M 950 584.511 L 940 584.511" />
+        <path d="M 950 569.901 L 940 569.901" />
+        <path d="M 950 555.29 L 930 555.29" />
+        <path d="M 950 540.68 L 940 540.68" />
+        <path d="M 950 526.069 L 940 526.069" />
+        <path d="M 950 511.459 L 940 511.459" />
+        <path d="M 950 496.848 L 940 496.848" />
+        <path d="M 950 482.238 L 940 482.238" />
+        <path d="M 950 467.627 L 940 467.627" />
+        <path d="M 950 453.017 L 940 453.017" />
+        <path d="M 950 438.406 L 940 438.406" />
+        <path d="M 950 423.796 L 940 423.796" />
+        <path d="M 950 409.185 L 930 409.185" />
+        <path d="M 950 394.575 L 940 394.575" />
+        <path d="M 950 379.964 L 940 379.964" />
+        <path d="M 950 365.354 L 940 365.354" />
+        <path d="M 950 350.743 L 940 350.743" />
+        <path d="M 950 336.133 L 940 336.133" />
+        <path d="M 950 321.522 L 940 321.522" />
+        <path d="M 950 306.912 L 940 306.912" />
+        <path d="M 950 292.301 L 940 292.301" />
+        <path d="M 950 277.691 L 940 277.691" />
+        <path d="M 950 263.08 L 930 263.08" />
+        <path d="M 950 248.47 L 940 248.47" />
+        <path d="M 950 233.859 L 940 233.859" />
+        <path d="M 950 219.249 L 940 219.249" />
+        <path d="M 950 204.638 L 940 204.638" />
+        <path d="M 950 190.028 L 940 190.028" />
+        <path d="M 950 175.417 L 940 175.417" />
+        <path d="M 950 160.807 L 940 160.807" />
+        <path d="M 950 146.196 L 940 146.196" />
+        <path d="M 950 131.586 L 940 131.586" />
+        <path d="M 950 116.975 L 930 116.975" />
+        <path d="M 950 102.365 L 940 102.365" />
+        <path d="M 950 87.7543 L 940 87.7543" />
+        <path d="M 950 73.1438 L 940 73.1438" />
+        <path d="M 950 58.5333 L 940 58.5333" />
+        <path d="M 950 862.11 L 940 862.11" />
+        <path d="M 950 905.942 L 940 905.942" />
+        <path d="M 950 891.331 L 940 891.331" />
+        <path d="M 950 876.721 L 940 876.721" />
+    </g>
+</g>
+</g>
+</svg>
