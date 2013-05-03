@@ -1,0 +1,55 @@
+#!/usr/bin/python
+import argparse
+import xml.etree.ElementTree
+
+from augustus.kernel.unitable import UniTable
+import cassius
+from cassius.backends.svg import draw
+import cassius.applications.TreePlotter as TreePlotter
+
+parser = argparse.ArgumentParser(description="Plots a decision tree overlaid by data as a function of two features.")
+parser.add_argument("config", help="config file passed to AugustusTreeProducer (for the input data)")
+parser.add_argument("pmml", help="PMML output from AugustusTreeProducer (for the decision tree)")
+parser.add_argument("svg", help="fileName for SVG plot to create/overwrite")
+parser.add_argument("featureX", help="feature to plot on the horizontal (X) axis")
+parser.add_argument("featureY", help="feature to plot on the vertical (Y) axis")
+parser.add_argument("--range", nargs="*", default=[], help="allowed range for other features: space-delimited list of triplets featureName1 min1 max1 featureName2 min2 max2...")
+parser.add_argument("--categories", nargs="*", default=None, help="space-delimited list of categories to draw (draw all if not specified)")
+parser.add_argument("--colors", nargs="*", default=["red", "blue", "green", "purple", "yellow", "gray", "fuchsia", "white"], help="space-delimited list of colors for the categories")
+parser.add_argument("--markers", nargs="*", default=["circle", "circle", "circle", "circle", "circle", "circle", "circle", "circle"], help="space-delimited list of markers for the categories")
+args = parser.parse_args()
+
+try:
+    args.range = zip(args.range[::3], map(float, args.range[1::3]), map(float, args.range[2::3]))
+except:
+    raise TypeError, "Argument 'range' is not formatted properly."
+
+data = UniTable().load(TreePlotter.dataFileName(xml.etree.ElementTree.ElementTree(file=args.config)))
+pmml = xml.etree.ElementTree.ElementTree(file=args.pmml)
+continuous_features, categorical_features = TreePlotter.findFeatures(pmml)
+category_label = TreePlotter.categoryLabel(pmml)
+
+if args.categories is None:
+    args.categories = TreePlotter.all_categories(data, category_label)
+category_colors = dict(zip(args.categories, args.colors))
+category_markers = dict(zip(args.categories, args.markers))
+
+ranges = TreePlotter.ranges_mask(data, args.range)
+feature_means = TreePlotter.means(data, continuous_features, ranges)
+
+scatterplot = TreePlotter.scatterplots(data=data,
+                                       featureX=args.featureX,
+                                       featureY=args.featureY,
+                                       ranges_mask=ranges,
+                                       categories=args.categories,
+                                       category_colors=category_colors,
+                                       category_markers=category_markers,
+                                       category_label=category_label,
+                                       markeroutline="black",
+                                       )
+
+regionplot = TreePlotter.regionplots(pmml, args.featureX, args.featureY, feature_means, args.categories, category_colors)
+
+legend = TreePlotter.regionlegend(args.categories, category_colors, category_markers, args.featureX, args.featureY, continuous_features, feature_means)
+
+draw(cassius.Overlay(regionplot, scatterplot, legend, frame=-2), fileName=args.svg)
